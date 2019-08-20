@@ -1,13 +1,16 @@
 import React from 'react';
-import MovieList from './MovieList.js';
-import { Link } from 'react-router-dom';
+// import MovieList from './MovieList.js';
+import Movie from './Movie';
+
 
 const MovieCard = props => {
-  return (
-    <>
-        <Link  to={`/Movies/${id}`} ><MovieList/></Link>
-    </>
+// console.log(movies);
 
+  return (
+    <div>
+      <p>Hello can you see movie card?</p>
+        <Movie/>
+    </div>
   );
 };
 
